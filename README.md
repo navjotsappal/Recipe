@@ -2,4 +2,4 @@
 https://web.cs.dal.ca/~sappal/Recipe/
 
 # Screenshots
-Recipe/Navjot Report-pages-40-56.pdf
+https://github.com/navjotsappal/Recipe/blob/master/Navjot%20Report-pages-40-56.pdf
