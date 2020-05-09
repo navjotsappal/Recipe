@@ -1,0 +1,262 @@
+/* please note that the following code has been referenced from the assignment 3 of the course CSCI 5709 (Advanced topics in web development) source: // https://web.cs.dal.ca/~sappal/csci5709/
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif !important; ;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+input[type=text],input[type=password], input[type=email]{    /* css for input type elements, source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    width: 100%;
+    padding: 1em;
+    resize: vertical;
+    border: 1px solid #DCE1EC;
+    border-radius: 0.3em;
+
+
+}
+
+.signUpTitle{
+    font-size: 2em;
+    color:#090d3d;
+    margin:2em 0;
+    font-weight: bold;
+
+}
+
+.top{
+    margin-top: .1em;
+}
+
+.bottom{
+    margin-top: 2em;
+}
+.container{
+    width: 100% !important;
+}
+
+.containerSignUp {       /* setting css style, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    padding: 2em;
+   /* background-color:lightcyan;*/
+   /* background-image: linear-gradient(to bottom, #74ebd5,lightcyan,lightblue,lightcyan ); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+    /*background-image: linear-gradient(to bottom,#74ebd5,lightcyan ); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+   /* background-image: url(../images/wooden_background.jpg); /* image source: https://wallpapercave.com/wp/nLjxrSk.jpg*/
+    /*background-image: url(../images/whiteWooden.jpg); /* image source: https://wallpaper-house.com/data/out/9/wallpaper2you_353398.jpg*/
+    background-size: 100%;
+   /* background-image: url("../images/whiteWoodLight3.jpg"); !* image source: https://images-na.ssl-images-amazon.com/images/I/71ZaksatWSL._SL1000_.jpg*! */
+    /* background-color: #F5F5F5;*/
+    /*background-image: url(../images/wooden_backgroundNew.jpg);/* image source: https://www.google.com/search?safe=off&q=Vector+graphics&tbm=isch&tbs=simg:CAQSkwEJlred3So4nOYahwELEKjU2AQaAggVDAsQsIynCBpgCl4IAxImDtEBDdkHsAGREtoH5AKUAdUF6ifeKeUn6SftNesn-jXXKPU17jUaMJ_1VA9NcVjzZFJK07lmomz3fHBS_1mczbG-rd6eK5EIXfiJOJae_1UbT5fOg3wFHJMZiAEDAsQjq7-CBoKCggIARIENe0OMQw&sa=X&ved=0ahUKEwiz7MeatoLgAhWoTN8KHXTtAcwQ2A4ILCgB&biw=1280&bih=610#imgrc=dbTbDwl5P92ZHM:*/
+    width:50em;
+    border:2px solid #DCE1EC;
+    border-radius: .51em;
+    margin:2em auto 0 auto;
+}
+
+.otherContainer{                  /* setting style for container , source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    padding: 2em;
+    /*background-color:lightcyan; */
+    /*background-image: linear-gradient(to top, #74ebd5,lightcyan); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+    /*background-image: url(../images/wooden_background.jpg); /* image source: https://wallpapercave.com/wp/nLjxrSk.jpg*/
+
+    /*background-image: url("../images/whiteWoodLight3.jpg"); !* image source: https://images-na.ssl-images-amazon.com/images/I/71ZaksatWSL._SL1000_.jpg*! */
+
+    background-size: 100%;
+    margin:1em auto 0 auto;
+    border:2px solid #DCE1EC;
+    border-radius: .51em;
+    width:50em;
+   /* background-color: #F5F5F5;*/
+
+}
+
+
+.userMessageSignUpSuccessful{
+
+    font-size: 1em;
+    color: green;
+}
+.userMessageSignUpFailure{
+
+    font-size: 1em;
+    color: #DE1643;
+
+}
+
+.errorMessage {
+    font-size: 1em;
+    color: #DE1643;
+    margin-top: 1em !important;
+
+}
+
+.customAlert{
+    border: 2px solid #DCE1EC;
+    margin: .25em!important;
+    /*height: 20em !important;*/
+}
+
+#divUserMessageDisplayBlock{
+    display: none;
+}
+#divUserMessageDisplayNone{
+    display:none;
+}
+label { /* css for label, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    padding: .725em .725em .725em 0;
+    color: #000073;
+    display: inline-block;
+    font-weight: 300 !important;
+    font-size: 1.5em;
+    /*margin-left: .25em; */
+
+
+}
+
+.column75 {          /* css for input elements in column on right side,source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+
+    width: 72%;
+    margin-top: 0.5em;
+    float: left;
+
+
+}
+
+.column25 {          /* css for label in column on left side   source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    margin-top: 0.5em;
+    float: left;
+    width: 28%;
+
+
+}
+
+.blueColor{
+    color: #000073 !important;
+    font-size: 0.85em !important;
+}
+
+input[type=submit],input[type=button] {        /* css for Sign UP button, source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    background-color: #09c14d;
+    /*float: right;*/
+    border-radius: .26em;
+    border: #09c14d;
+    color: white;
+    cursor: pointer;
+    width:15em;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 1em auto;
+    padding: 0.75em 1.25em;
+    text-align: center;
+    /*margin-top: .49em;
+    margin-right:12em;
+    padding: 0.75em 1.25em;*/
+
+ /*   font-weight: 600;*/
+}
+input[type=submit]:hover,input[type=button]:hover{
+    background-color:#058e37;
+}
+
+.anchorForgotPassword{
+    text-decoration: none;
+    color: deepskyblue !important;
+    cursor: pointer;
+}
+.anchorForgotPassword:hover{
+    color: #000073 !important;
+}
+.btn-primary:hover{
+    background-color:#058e37 !important;
+}
+
+#successAccountCreated{
+    display: block;
+}
+
+/* 2 columns on top (stack)of each other*/
+
+@media screen and (max-width: 730px) {     /* set responsiveness, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+
+    .otherContainer
+    {
+        width: 100%;
+    }
+
+    input[type=submit],input[type=button]
+    {
+        width: 15em;
+        margin-top: 1.2em;
+        margin-right: 0em;
+    }
+
+    .col
+    {
+        width: 100%;
+        margin-top: 0.376em;
+        margin-right: 0em;
+    }
+    .containerSignUp
+    {
+        width:100%;
+    }
+
+
+
+}
+@media screen and (max-width: 580px) {     /* set responsiveness, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+
+    .otherContainer
+    {
+        width: 100%;
+    }
+
+    input[type=submit],input[type=button]
+    {
+        width: 15em;
+        margin-top: 1.2em;
+        margin-right: 0em;
+    }
+
+    .col
+    {
+        width: 100%;
+        margin-top: .376em;
+        margin-right: 0em;
+    }
+    .containerSignUp
+    {
+        width:100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 380px) {     /* set responsiveness, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+
+    input[type=submit],input[type=button]
+    {
+        width: 100%;
+        margin-top: 1.2em;
+        margin-right: 0em;
+    }
+
+
+
+}
+
+
+
+/* clear floats after columns */ /* source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+.row:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+

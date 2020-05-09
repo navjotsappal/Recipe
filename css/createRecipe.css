@@ -1,0 +1,357 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 0;
+   /* background-color: #F5F5F5 !important;*/
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+input[type=text],input[type=number],input[type=url],input[type=email]{    /* css for input type elements, source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    width: 100%;
+    padding: 1em;
+    resize: vertical;
+    border: 1px solid #DCE1EC;
+    border-radius: 0.3em;
+    color: #090d3d;
+    font-size: 1em;
+    margin-bottom: 1em;
+
+
+}
+#hideOtherCategory{
+
+    display: none;
+}
+#displayOtherCategory{
+    display:block;
+}
+
+.selectCategory{
+    width: 50%;
+    padding: 1em;
+    resize: vertical;
+    border: 1px solid #DCE1EC;
+    border-radius: 0.3em;
+    color: #000073 !important;
+    font-size: 1em;
+    margin-bottom: 1.35em;
+    display: inline-block;
+}
+
+textarea{
+    width: 100%;
+    padding: 1em;
+    resize: vertical;
+    border: 1px solid #DCE1EC;
+    border-radius: 0.3em;
+    color: #090d3d;
+    font-size: 1em !important;
+    /*letter-spacing: 1px;*/
+   /* line-height: 1.5;*/
+  /*  box-shadow: 1px 1px 1px #999;*/
+    margin-bottom: 1.18em !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.containerLayout{
+    padding: 1em;
+    background-size: 100%;
+   /* background-image: url("../images/whiteWoodLight3.jpg"); !* image source: https://images-na.ssl-images-amazon.com/images/I/71ZaksatWSL._SL1000_.jpg*!
+   */
+    width:100%;
+    /*border:0.25em solid #090d3d;*/
+    border-radius: 1em;
+    margin: 0;
+}
+.enclosedContainer{
+    max-width: 1400px !important;
+
+}
+.containerWidth{
+    max-width: 1400px;
+    border-radius: 0.35em;
+    border: 2px solid #DCE1EC;
+    margin: 1em 0 1em 0;
+    background-color: #fcf3ef !important;
+}
+.outerContainer{
+    width:100%;
+    /*border: 2px solid #DCE1EC;*/
+    margin: 0;
+    /*background-image: url("../images/whiteWoodLight3.jpg"); !* image source: https://images-na.ssl-images-amazon.com/images/I/71ZaksatWSL._SL1000_.jpg*!
+    *//*background-color: rgba(9,13,61,0.1);*/
+    /*background-color: #DCE1EC;*/
+   /* background-color: aliceblue;*/
+    border: 2px solid #DCE1EC;
+   /* mso-border-shadow: yes;*/
+    background-size: 100%;
+    border-radius: 0.35em;
+    /*background-color: #090d3d;*/
+   /* background-color: hsla(0, 100%, 90%, 0.4);*/
+   /* background-image: linear-gradient(to bottom,lightcyan,lightcyan ); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+
+    /*-webkit-box-shadow: -0.5em -0.5em 0.375em -0.375em #090d3d;
+    box-shadow: -0.5em -0.5em 0.375em -0.375em #090d3d;
+    -moz-box-shadow: -0.5em -0.5em 0.375em -0.375em #090d3d;*/
+
+    /*background: linear-gradient(to right,#FCE4ED,#FFE8CC);*/
+}
+.container{
+
+    width: 100% !important;
+}
+.titleHeading{
+    color: #090d3d;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+.privacyIcon{
+    background-image:url(../images/privacyicon.png);
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+   /* padding-left: 1em;*/
+}
+label{
+    color: #000073 !important;
+    display: inline-block;
+    font-weight: 300 !important;
+    font-size: 1.5em;
+}
+row{
+    margin: 0 auto;
+    align-items: center;
+}
+.columnOne{
+    width: 50%;
+    /*max-width: 500px;*/
+    margin: 0em auto;
+    float:left;
+    /*border: 2px solid #090d3d;*/
+    padding: 1em 1em;
+    /*border-top: 4px solid #090d3d;*/
+
+
+}
+
+.columnTwo{
+    width: 50%;
+    /*max-width: 500px;*/
+    margin: 1em auto;
+    float:left;
+    /*border: 2px solid #090d3d;*/
+    padding: 2em;
+}
+
+.CreateRecipeButton
+{
+
+    width: 27%;
+    margin: 0 auto;
+}
+    /*.columnTwo {
+    margin-left: 0.5em;
+    float: left;
+    width: 58%;
+    margin-top: 1em;
+    border: 2px solid #090d3d;
+
+}
+*/
+input[type=submit]:hover{
+    background-color:#058e37;
+}
+input[type=submit]{        /* css for Sign UP button, source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    font-size: 1.5em;
+    background-color: #09c14d;
+    border-radius: .26em;
+    border: #09c14d ;
+    color: white;
+    cursor: pointer;
+    width:100%;
+    margin: 0.5em auto;
+    padding: 0.75em 1.25em;
+    text-align: center;
+}
+
+.fileUpload{
+    width: 50%;
+    padding: .5em;
+    resize: vertical;
+    border: 1px solid #000073;
+    border-radius: 0.26em;
+    color: white;
+    font-size: 1.25em;
+    background: #000073;
+    margin-bottom: 0.125em !important;
+    /*margin-top: 0.35em;*/
+
+}
+#successRecipeCreated{
+    display: block;
+}
+.modal{
+    /*data-backdrop: static;*/
+}
+iframe{
+    width: 50%;
+    height:50%;
+}
+
+.errorMessage{
+    font-size: 1em;
+    color: #DE1643;
+    margin-left: 0.5em;
+}
+.errorColor{
+    color: #DE1643;
+}
+.deleteConfirmation{
+    max-width: 50em;
+}
+.customAlert{
+    border: 2px solid #DCE1EC;
+    margin: .25em!important;
+    /*height: 20em !important;*/
+}
+.marginTop{
+    margin-top: 4em !important;
+}
+.img{
+    display: inline-block;
+    width:10%;
+    height: 10%;
+    /* margin: auto auto;*/
+}
+
+.userMessageRecipeCreatedSuccessfully{
+    font-size: 1em;
+    color: green;
+}
+
+.userMessageRecipeCreationFailure{
+    font-size: 1em;
+    color:#DE1643;
+}
+
+
+/* reference starts here, css code for star rating below is referenced from source: https://www.cssscript.com/simple-5-star-rating-system-with-css-and-html-radios/ */
+
+div.starRating{
+    max-width: 280px;
+    display: inline-block;
+    margin:-0.5em 0;
+}
+
+input.star { display: none; }
+
+label.star {
+    transition: all .1s;
+    float: right;
+    font-size: 30px;
+    color: #000073;
+    padding: 7px;
+
+}
+
+input.star:checked ~ label.star:before {
+
+    transition: all .3s;
+    color: #FD4;
+    content: '\f005';
+}
+
+input.starFive:checked ~ label.star:before {
+    text-shadow: 0 0 1em #952;
+    color: #FE7;
+}
+
+
+label.star:before {
+    font-family: FontAwesome;
+    content: '\f006';
+
+}
+/* reference ends here, css code for star rating  is referenced from source: https://www.cssscript.com/simple-5-star-rating-system-with-css-and-html-radios/ */
+
+@media screen and (max-width: 1100px) and (min-width: 851px) {
+    .fileUpload {
+        width: 100%;
+    }
+
+    .selectCategory {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .columnOne{
+        width: 100%;
+    }
+    .columnTwo{
+        width: 100%;
+    }
+    .CreateRecipeButton{
+        width: 40%;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .fileUpload{
+        width: 50%;
+    }
+
+    .CreateRecipeButton {
+        font-size: 1em;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+  /*  .CreateRecipeButton{
+        font-size: 1em;
+        width: 100%;
+    }*/
+}
+
+@media screen and (max-width: 650px) {
+    .fileUpload {
+        width: 100%;
+    }
+
+    .selectCategory{
+        width: 100%;
+    }
+
+    .CreateRecipeButton {
+        font-size: 1em;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .fileUpload {
+        width: 100%;
+    }
+
+    .selectCategory{
+        width: 100%;
+    }
+
+    .CreateRecipeButton {
+        font-size: 1em;
+        width: 83%;
+        margin: 0 auto;
+
+    }
+
+}
+
+

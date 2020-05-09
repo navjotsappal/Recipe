@@ -1,0 +1,453 @@
+.midContainer{
+    width:100%;
+    min-height: 35em;
+    /*background-color: #FFC4B5; */
+    border-radius: 0.25em;
+   /* background-image: linear-gradient(to bottom,#FFC4B5,#FFE4C4 ); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+    /*background-image: linear-gradient(to bottom,#74ebd5,lightcyan); */
+    background-image: url(../images/wooden_backgroundLight.jpg); /* image source: https://wallpapercave.com/wp/nLjxrSk.jpg*/
+    /*background-size: 100%;*/
+    /*background-image: url(../images/lightBrownWood.jpg); /* image source: https://unsplash.com/photos/fi_LdNpbFFg*/
+    color: #090d3d;
+    border-bottom: 4px solid #090d3d;
+
+
+}
+.midContainer2{
+    width:100% !important;
+    min-height: 35em;
+    /*background-color: #FFC4B5; */
+    border-radius: 0.25em;
+    /* background-image: linear-gradient(to bottom,#FFC4B5,#FFE4C4 ); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+    /*background-image: linear-gradient(to bottom,#74ebd5,lightcyan); */
+    /*background-image: url(../images/whiteWoodLight.jpg); /* image source: https://wallpapercave.com/wp/nLjxrSk.jpg*/
+
+    /*background-color: #FFECE4; *//* dark shade*/
+    background-color: #fcf3ef; /* light brown*/
+
+
+
+    background-size: 100%;
+    /*background-image: url(../images/lightBrownWood.jpg); /* image source: https://unsplash.com/photos/fi_LdNpbFFg*/
+    color: #090d3d;
+   /* border-bottom: 4px solid #090d3d;*/
+    padding-bottom: 2em;
+
+}
+/*.rowWidth{
+    width: 1400px !important;
+    margin:0 auto;
+}*/
+
+.midContainer3{
+  /*  width:100% !important;*/
+    max-width: 1400px !important;
+    min-height: 35em;
+    /*background-color: #FFC4B5; */
+    border-radius: 0.25em;
+    /* background-image: linear-gradient(to bottom,#FFC4B5,#FFE4C4 ); /* source : https://www.w3schools.com/css/css3_gradients.asp*/
+    /*background-image: linear-gradient(to bottom,#74ebd5,lightcyan); */
+   /* background-image: url(../images/whiteWoodLight.jpg); /* image source: https://wallpapercave.com/wp/nLjxrSk.jpg*/
+    background-size: 100%;
+    background-color: white!important;
+    /*background-image: url(../images/lightBrownWood.jpg); /* image source: https://unsplash.com/photos/fi_LdNpbFFg*/
+    color: #090d3d;
+   /* border-bottom: 4px solid #090d3d;*/
+    padding-bottom: 2em;
+   /* background: #FBFBF9;*/
+    /*background: #FFFFFF !important;*/
+
+
+}
+
+.containerWidth{
+    width: 1400px !important;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100% !important;
+}
+
+.headingOne{
+    /*color: deepskyblue;*/
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+}
+
+.paraOne{
+    margin: 1em auto;
+    max-width: 100%;
+    /*width: 600px; */
+    font-size: 2.25em;
+    /*color: deepskyblue !important*/;
+    color:#000073;
+}
+.signUpButton{
+    font-size: 1.5em;
+    background-color: #09c14d;
+    border-radius: .26em;
+    border: lightcyan;
+    color: white;
+    cursor: pointer;
+    width:15em;
+    margin-top: 0.5em;
+    padding: 0.75em 1.25em;
+    text-align: center;
+
+}
+
+.signUpButton:hover{
+    background-color:#058e37;
+}
+.column1{
+    width:48%;
+    align-items: center;
+    float: left;
+    padding: 1.5em 3em;
+}
+
+.column2{
+    width:50%;
+    align-items: center;
+    float: left;
+    padding:1.5em 1.5em;
+}
+.layoutThreeColumn{
+    margin: 2em auto;
+    width:100%;
+    max-width:1200px;
+    text-align: center;
+
+
+
+}
+.column3{
+   /* position:center;*/
+    text-align: center;
+    padding: 1em 1em;
+    width: 33%;
+   /* border: 2px solid #090d3d; */
+    float: left;
+}
+
+.img{
+    display: block;
+    width:300px;
+    height: 300px;
+    margin: auto auto;
+    border-radius: 1em;
+
+
+
+}
+
+.threeColumnHeading{
+    font-size: 2.25em;
+    margin:1em auto;
+    font-weight: bold !important;
+    /*color: deepskyblue !important;*/
+
+
+}
+
+.threeColumnPara{
+    font-size: 1.75em;
+    /*color: deepskyblue !important;*/
+
+    color: #000073 !important;
+}
+
+
+
+.imageHome{
+    width: 100%;
+    height:100%;
+    border: 1px solid #DCE1EC;
+    margin-top: 1.75em;
+    border-radius: .75em;
+}
+
+
+
+.textAlign{
+    text-align: center;
+    margin: 1em auto 0 auto;
+    max-width: 1000px;
+
+}
+
+.padding{
+    padding:0em 3em;
+}
+
+
+
+.top{
+    margin-bottom: -20px;
+}
+
+.bottom{
+   /* margin-top: 0em;*/
+    width:100%;
+    background-color: #090d3d;
+
+}
+
+.bottomContainer{
+   /* width: 1200px;*/
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #090d3d !important;
+}
+
+
+
+/*
+
+@media screen and (max-width: 1920px) and(min-width: 1441px){
+    .headingOne{
+        font-size: 5em;
+    }
+
+    .paraOne{
+        font-size: 3.5em;
+    }
+
+    .signUpButton{
+        width:25em;
+    }
+}
+
+@media screen and (max-width: 1440px) and(min-width: 761px){
+    .headingOne{
+        font-size: 4em;
+    }
+
+    .paraOne{
+        font-size: 3em;
+    }
+
+    .signUpButton{
+        width:22.5em;
+    }
+}
+
+*/
+
+
+    @media screen and (max-width: 876px)   {
+    .headingOne {
+        font-size: 2.5em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .paraOne{
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .column1{
+        width: 100%;
+        align-items: center;
+    }
+    .column2{
+        width: 100%;
+        align-items: center;
+    }
+
+    .imageHome {
+        width: 100%;
+        height: auto;
+        margin: 0 0;
+    }
+    .signUpButton{
+        margin: 1em auto;
+        font-size: 1.5em;
+
+
+    }
+
+    .column3{
+        width: 100%;
+        align-items: center;
+    }
+
+    .threeColumnHeading{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .threeColumnPara{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 560px)  {
+    .headingOne {
+        font-size: 2.25em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .paraOne{
+        font-size: 1.25em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .column1{
+        width: 100%;
+        align-items: center;
+    }
+    .column2{
+        width: 100%;
+        align-items: center;
+    }
+
+    .imageHome {
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+    }
+    .signUpButton{
+       margin: 0 auto;
+        font-size:1.25em;
+    }
+
+    .column3{
+        width: 100%;
+        align-items: center;
+    }
+    .threeColumnHeading{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .threeColumnPara{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 350px)  {
+    .headingOne {
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .paraOne{
+        font-size: 1.125em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .column1{
+        width: 100%;
+        align-items: center;
+    }
+    .column2{
+        width: 100%;
+        align-items: center;
+    }
+
+    .imageHome {
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+    }
+    .signUpButton{
+        margin: 0 auto;
+        font-size:1.25em;
+        width:100%;
+    }
+
+    .column3{
+        width: 100%;
+        align-items: center;
+    }
+    .threeColumnHeading{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .threeColumnPara{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .img{
+        width:80%;
+        height:80%;
+    }
+
+}
+
+@media screen and (max-width: 1170px){
+
+    .headingOne {
+        font-size: 2.5em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .paraOne{
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .signUpButton{
+        margin: 1em auto;
+
+    }
+    .column3{
+        width: 100%;
+        align-items: center;
+    }
+
+    .threeColumnHeading{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        font-size: 2em;
+
+    }
+
+    .threeColumnPara{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+        font-size: 1.5em;
+    }
+
+}
+
+.row:after {         /* https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    clear: both;
+    content: "";
+    display: table;
+
+}

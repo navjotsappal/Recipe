@@ -1,0 +1,303 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 0;
+  /*  font-family: Montserrat, sans-serif !important;*/
+    color: #1e282f !important;
+    /*background-color: #F5F5F5 !important;*/
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.containerWidth{
+    max-width: 1400px !important;
+   /* border: 2px solid #090d3d;*/
+    margin-bottom: 1em;
+}
+.container{
+   /* max-width: 1400px*/;
+    width: 100% !important;
+
+    height:auto;
+   /* background-color: aliceblue;*/
+    /*border: 2px solid #DCE1EC;*/
+    /*border: 2px solid #090d3d;*/
+    background-size: 100%;
+    border-radius: 0.35em;
+   /* padding: 0.5em !important;
+    margin: 1em auto !important;*/
+
+
+}
+.row{
+    width: 100%!important;
+    margin:0 !important;
+    padding: 0 !important;
+}
+
+.columnOne, .columnTwo{
+    width: 48%;
+    margin: 1em 1% 0em 1%;
+    float: left;
+    border: 1px solid #DCE1EC;
+   /* border-bottom: 1px solid #DCE1EC;
+    border-left: 1px solid #DCE1EC;*/
+    padding: 0 1em;
+    overflow-y: auto;
+    height: 25em;
+    background-color: #fcf3ef;
+
+}
+
+.fixedTopRight{
+    position: fixed;
+    margin-top: 0.4em;
+    margin-right: 0!important;
+    border-radius: .26em;
+    cursor: pointer;
+    padding: 0.05em 0.2em 0.05em 0.25em;
+    text-align: center;
+    display: block;
+    /* background: none; */
+    background:  #09c14d;
+    color: white;
+    /* margin-left: -5px; */
+    font-size: 2.5em;
+    border: none;
+}
+/* reference for code below for scrollbar : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar2*/
+::-webkit-scrollbar {
+    width: 0.75em;
+    -webkit-appearance: button-bevel;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background: #DCE1EC;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 7px;
+    box-shadow: inset 0 0 5px grey;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #090d3d;
+}
+/* reference for code above for scrollbar : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar2*/
+
+
+.img{
+    display: block;
+    width:100%;
+    height: 100%;
+   /* margin: auto auto;*/
+}
+
+.recipeHeading{
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0!important;
+    margin: 0 !important;
+    color:#090d3d;
+
+
+}
+.categoryHeading{
+    text-align: left;
+    padding: 0!important;
+    margin: -10px 0 2em 0 ;
+}
+
+.categoryHeadingColor{
+    color: #000073;
+   /* color:deepskyblue;*/
+}
+.paragraphDescription{
+    margin-top: -2em;
+}
+
+.ingredientHeading{
+    text-align: left;
+    padding: 0!important;
+    margin: 1em 0 1em 0 ;
+    color:#000073;
+    /*color:deepskyblue;*/
+
+}
+.directionHeading{
+    text-align: left;
+    padding: 0!important;
+    margin: 1em 0 1em 0 ;
+}
+
+.collaborateTimeShare{
+    padding: 1em 0!important;
+    margin:0.25em 0;
+
+}
+
+.paragraphIngredient{
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 1.5em;
+    color: #1e282f !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    margin-left: 0.5em !important;
+   /* display: inline-block;*/
+}
+.listIngredients{
+    color: #000073;
+    font-weight: bold;
+}
+
+.customAlert{
+    border: 2px solid #DCE1EC;
+    margin: .25em!important;
+}
+.readOnly{
+    pointer-events: none!important;
+    margin-left: -5px !important;
+}
+.errorColor{
+    color: #DE1643 !important;
+}
+
+
+
+iframe{
+    width: 100%;
+    border: 0px solid #090d3d;
+    margin: 0 auto;
+}
+
+.updateRecipeButton{
+    font-size: 1.5em;
+    /*background-color: #00d1ff;*/
+    border-radius: .26em;
+    border: 0.5px solid #09c14d;
+
+    /*background-color: #93ff61;*/
+    background-color: #09c14d;
+    color: white;
+    cursor: pointer;
+    width:70%;
+    margin: 1em auto;
+    padding: 0.75em 0em;
+    text-align: center;
+}
+.updateRecipeButton:hover{
+    background-color:#058e37;
+}
+
+
+.row:after {
+    clear: both;
+    display: table;
+    content: "";
+
+}
+
+@media screen and (max-width: 1150px){
+    .columnOne,.columnTwo{
+        height: 21em;
+
+    }
+}
+@media screen and (max-width: 980px){
+    .columnOne,.columnTwo{
+        height: 18em;
+
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .columnOne,.columnTwo {
+        width: 100%;
+        height: 23em;
+        margin: 1em 0 0 0;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .updateRecipeButton{
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .columnOne,.columnTwo {
+        width: 100%;
+        height: 18em;
+        margin: 1em 0 0 0;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .updateRecipeButton{
+        width:60%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .updateRecipeButton{
+        width:92%;
+    }
+}
+
+/* reference starts here, css code for star rating below is referenced from source: https://www.cssscript.com/simple-5-star-rating-system-with-css-and-html-radios/ */
+
+div.starRating{
+    max-width: 280px;
+    display: inline-block;
+    /*margin-bottom: 0 !important;*/
+    /*padding-bottom: 0!important;*/
+    margin: 0.75em 0;
+}
+
+input.star { display: none; }
+
+label.star {
+    transition: all .1s;
+    float: right;
+    font-size: 25px;
+    color: #000073;
+    /*color:deepskyblue;*/
+    padding: 7px;
+
+}
+
+input.star:checked ~ label.star:before {
+
+    transition: all .3s;
+    color: #FD4;
+    content: '\f005';
+}
+
+input.starFive:checked ~ label.star:before {
+    text-shadow: 0 0 1em #952;
+    color: #FE7;
+}
+
+
+label.star:before {
+    font-family: FontAwesome;
+    content: '\f006';
+
+}
+/* reference ends here, css code for star rating  is referenced from source: https://www.cssscript.com/simple-5-star-rating-system-with-css-and-html-radios/ */

@@ -1,0 +1,96 @@
+/* the code below is taken from the source: https://bootsnipp.com/snippets/featured/footer-using-bootstrap-4 */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+section {
+    padding: 1.5em 0;
+}
+
+#footer p
+{color: white;
+}
+
+#footer li{
+    color: white;
+}
+section .section-title {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 3em;
+
+}
+#footer {
+    border-radius: 0.25em;
+    background-color: #090d3d;
+
+}
+#footer h5{
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1em solid white;
+    color:white;
+    margin-bottom: 1.5em;
+
+}
+#footer ul.social li{
+    padding: 1em 1em;
+}
+
+#footer a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none !important;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li:hover a i {
+    font-size:3em;
+    margin-top:-0.625em;
+}
+
+#footer ul.social li a i {
+    font-size:2em;
+    margin-right: .5em;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    -moz-transition: .5s all ease;
+
+}
+
+#footer ul.social li a:hover{
+    color:white;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+    color:white;
+}
+
+#footer ul.quick-links li:hover{
+    padding: 0.1875em 0;
+    font-weight:700;
+    margin-left:0.3125em;
+}
+#footer ul.quick-links li{
+    padding: 0.1875em 0;
+    -moz-transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+#footer ul.quick-links li a i{
+    margin-right: 0.375em;
+}
+
+
+@media (max-width:767px){
+    #footer h5 {
+        padding-left: 0em;
+        margin-bottom: 0.65em;
+        padding-bottom: 0em;
+        border-left: transparent;
+
+    }
+}

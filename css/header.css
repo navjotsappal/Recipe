@@ -1,0 +1,24 @@
+
+.navbar{
+    min-height: 4em;
+}
+.navbar-inverse{
+    min-height: 4em;
+}
+
+.navbar-header{
+    min-height: 4em;
+}
+.imageRecipeLogo
+{
+    width:9em;
+    margin: 0;
+    padding: 0em;
+    background-color: #090d3d;
+    float:left;
+}
+
+/* changing  font size of list elements within navbar*/
+nav li{
+    font-size: 1.35em;
+}
